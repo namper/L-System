@@ -62,9 +62,9 @@ class l_system:
 						executable.append(self.trasnofrmation[eachAxiom])
 					else:
 						executable.append(eachAxiom)
-	## Axiomas Gatoleba
+	## ReSetting Axioms Value 
 			self.axioms = str(executable)
-	## Axiomebis Shemocmeba Da Daxatva
+	## Checking Axioms And Drawing On Context
 		for axiom in self.axioms:
 			if axiom in self.action.keys():
 				if axiom == '+' or axiom == '-':
